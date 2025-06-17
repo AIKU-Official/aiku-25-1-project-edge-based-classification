@@ -1,0 +1,460 @@
+===== Training Start =====
+Device: cuda
+Batch Size: 64, LR: 0.001, Epochs: 10
+Input: ./dataset/Dark-ImageNet-subset-v2-edge/rcf/naive-0.1
+
+Epoch 1/10
+===== Training Start =====
+Device: cuda
+Batch Size: 64, LR: 0.001, Epochs: 10
+Input: ./dataset/imagenet-1k-subset-v2-edge/sobel
+
+Epoch 1/10
+  Train Loss: 4.6435  Acc: 0.1915
+  Val   Loss: 3.6048  Acc: 0.2910
+  Time: 0m 34s
+
+Epoch 2/10
+  Train Loss: 4.0354  Acc: 0.2448
+  Val   Loss: 3.5004  Acc: 0.2990
+  Time: 0m 34s
+
+Epoch 3/10
+  Train Loss: 3.7566  Acc: 0.2752
+  Val   Loss: 3.4421  Acc: 0.3142
+  Time: 0m 34s
+
+Epoch 4/10
+  Train Loss: 3.5135  Acc: 0.3069
+  Val   Loss: 3.4115  Acc: 0.3140
+  Time: 0m 34s
+
+Epoch 5/10
+  Train Loss: 3.3284  Acc: 0.3305
+  Val   Loss: 3.4113  Acc: 0.3207
+  Time: 0m 34s
+
+Epoch 6/10
+  Train Loss: 3.1991  Acc: 0.3515
+  Val   Loss: 3.4007  Acc: 0.3145
+  Time: 0m 34s
+
+Epoch 7/10
+  Train Loss: 3.0394  Acc: 0.3717
+  Val   Loss: 3.4067  Acc: 0.3150
+  Time: 0m 34s
+
+Epoch 8/10
+  Train Loss: 2.6984  Acc: 0.4334
+  Val   Loss: 3.1698  Acc: 0.3397
+  Time: 0m 34s
+
+Epoch 9/10
+  Train Loss: 2.5782  Acc: 0.4566
+  Val   Loss: 3.1427  Acc: 0.3435
+  Time: 0m 34s
+
+Epoch 10/10
+  Train Loss: 2.5739  Acc: 0.4560
+  Val   Loss: 3.1476  Acc: 0.3475
+  Time: 0m 34s
+Best Validation Acc: 0.3475
+Saved best model to ./checkpoint/ImageNet-subset-v2-edge-sobel-original-full-pretrained.pth
+===== Training Start =====
+Device: cuda
+Batch Size: 64, LR: 0.001, Epochs: 10
+Input: ./dataset/Dark-ImageNet-subset-v2/naive-0.1
+
+Epoch 1/10
+  Train Loss: 4.2140  Acc: 0.2621
+  Val   Loss: 3.3062  Acc: 0.3432
+  Time: 0m 33s
+
+Epoch 2/10
+  Train Loss: 3.6841  Acc: 0.3124
+  Val   Loss: 3.2196  Acc: 0.3605
+  Time: 0m 33s
+
+Epoch 3/10
+  Train Loss: 3.4715  Acc: 0.3388
+  Val   Loss: 3.2419  Acc: 0.3543
+  Time: 0m 33s
+
+Epoch 4/10
+  Train Loss: 3.3580  Acc: 0.3503
+  Val   Loss: 3.2293  Acc: 0.3585
+  Time: 0m 33s
+
+Epoch 5/10
+  Train Loss: 3.1579  Acc: 0.3788
+  Val   Loss: 3.2182  Acc: 0.3600
+  Time: 0m 33s
+
+Epoch 6/10
+  Train Loss: 3.0544  Acc: 0.3972
+  Val   Loss: 3.1523  Acc: 0.3705
+  Time: 0m 33s
+
+Epoch 7/10
+  Train Loss: 2.9206  Acc: 0.4128
+  Val   Loss: 3.2196  Acc: 0.3635
+  Time: 0m 33s
+
+Epoch 8/10
+  Train Loss: 2.6250  Acc: 0.4647
+  Val   Loss: 2.9971  Acc: 0.3872
+  Time: 0m 33s
+
+Epoch 9/10
+  Train Loss: 2.5174  Acc: 0.4898
+  Val   Loss: 2.9421  Acc: 0.3920
+  Time: 0m 33s
+
+Epoch 10/10
+  Train Loss: 2.4972  Acc: 0.4948
+  Val   Loss: 2.9399  Acc: 0.3947
+  Time: 0m 33s
+Best Validation Acc: 0.3947
+Saved best model to ./checkpoint/ImageNet-subset-v2-edge-sobel-original-full-pretrained-naive-0.1-full-finetuning.pth
+===== Training Start =====
+Device: cuda
+Batch Size: 64, LR: 0.001, Epochs: 10
+Input: ./dataset/Dark-ImageNet-subset-v2/naive-0.1
+
+Epoch 1/10
+  Train Loss: 4.2499  Acc: 0.2619
+  Val   Loss: 3.3212  Acc: 0.3450
+  Time: 0m 16s
+
+Epoch 2/10
+  Train Loss: 3.7434  Acc: 0.3055
+  Val   Loss: 3.3128  Acc: 0.3483
+  Time: 0m 16s
+
+Epoch 3/10
+  Train Loss: 3.5173  Acc: 0.3327
+  Val   Loss: 3.2428  Acc: 0.3530
+  Time: 0m 16s
+
+Epoch 4/10
+  Train Loss: 3.3038  Acc: 0.3561
+  Val   Loss: 3.1918  Acc: 0.3625
+  Time: 0m 16s
+
+Epoch 5/10
+  Train Loss: 3.1884  Acc: 0.3780
+  Val   Loss: 3.2108  Acc: 0.3558
+  Time: 0m 16s
+
+Epoch 6/10
+  Train Loss: 3.0648  Acc: 0.3967
+  Val   Loss: 3.2035  Acc: 0.3618
+  Time: 0m 16s
+
+Epoch 7/10
+  Train Loss: 2.9354  Acc: 0.4120
+  Val   Loss: 3.2701  Acc: 0.3558
+  Time: 0m 16s
+
+Epoch 8/10
+  Train Loss: 2.6298  Acc: 0.4678
+  Val   Loss: 2.9849  Acc: 0.3890
+  Time: 0m 16s
+
+Epoch 9/10
+  Train Loss: 2.5321  Acc: 0.4836
+  Val   Loss: 2.9009  Acc: 0.3995
+  Time: 0m 16s
+
+Epoch 10/10
+  Train Loss: 2.4783  Acc: 0.4953
+  Val   Loss: 2.9143  Acc: 0.3955
+  Time: 0m 16s
+Best Validation Acc: 0.3995
+Saved best model to ./checkpoint/ImageNet-subset-v2-edge-sobel-original-full-pretrained-naive-0.1-fc-finetuning.pth
+===== Training Start =====
+Device: cuda
+Batch Size: 64, LR: 0.001, Epochs: 10
+Input: ./dataset/Dark-ImageNet-subset-v2-edge/sobel/naive-0.1
+
+Epoch 1/10
+  Train Loss: 6.0840  Acc: 0.0837
+  Val   Loss: 5.7232  Acc: 0.0892
+  Time: 0m 17s
+
+Epoch 2/10
+  Train Loss: 5.5234  Acc: 0.1078
+  Val   Loss: 5.6037  Acc: 0.0932
+  Time: 0m 17s
+
+Epoch 3/10
+  Train Loss: 5.2443  Acc: 0.1222
+  Val   Loss: 5.5054  Acc: 0.1042
+  Time: 0m 17s
+
+Epoch 4/10
+  Train Loss: 5.0722  Acc: 0.1353
+  Val   Loss: 5.4942  Acc: 0.1037
+  Time: 0m 16s
+
+Epoch 5/10
+  Train Loss: 4.9187  Acc: 0.1475
+  Val   Loss: 5.4948  Acc: 0.1092
+  Time: 0m 16s
+
+Epoch 6/10
+  Train Loss: 4.7610  Acc: 0.1646
+  Val   Loss: 5.3465  Acc: 0.1175
+  Time: 0m 16s
+
+Epoch 7/10
+  Train Loss: 4.6794  Acc: 0.1718
+  Val   Loss: 5.3804  Acc: 0.1128
+  Time: 0m 16s
+
+Epoch 8/10
+  Train Loss: 4.3065  Acc: 0.2182
+  Val   Loss: 5.0241  Acc: 0.1340
+  Time: 0m 17s
+
+Epoch 9/10
+  Train Loss: 4.1384  Acc: 0.2340
+  Val   Loss: 5.0257  Acc: 0.1335
+  Time: 0m 17s
+
+Epoch 10/10
+  Train Loss: 4.1995  Acc: 0.2281
+  Val   Loss: 5.0482  Acc: 0.1298
+  Time: 0m 17s
+Best Validation Acc: 0.1340
+Saved best model to ./checkpoint/ImageNet-subset-v2-edge-sobel-original-full-pretrained-sobel-naive-0.1-fc-finetuning.pth
+===== Training Start =====
+Device: cuda
+Batch Size: 64, LR: 0.001, Epochs: 10
+Input: ./dataset/Dark-ImageNet-subset-v2-edge/sobel/naive-0.1
+
+Epoch 1/10
+  Train Loss: 6.0864  Acc: 0.0839
+  Val   Loss: 5.7437  Acc: 0.0875
+  Time: 0m 34s
+
+Epoch 2/10
+  Train Loss: 5.5289  Acc: 0.1079
+  Val   Loss: 5.5842  Acc: 0.0985
+  Time: 0m 33s
+
+Epoch 3/10
+  Train Loss: 5.2483  Acc: 0.1198
+  Val   Loss: 5.5018  Acc: 0.1090
+  Time: 0m 33s
+
+Epoch 4/10
+  Train Loss: 5.0318  Acc: 0.1385
+  Val   Loss: 5.4010  Acc: 0.1143
+  Time: 0m 33s
+
+Epoch 5/10
+  Train Loss: 4.8953  Acc: 0.1525
+  Val   Loss: 5.3957  Acc: 0.1160
+  Time: 0m 33s
+
+Epoch 6/10
+  Train Loss: 4.8065  Acc: 0.1589
+  Val   Loss: 5.3320  Acc: 0.1158
+  Time: 0m 33s
+
+Epoch 7/10
+  Train Loss: 4.6652  Acc: 0.1736
+  Val   Loss: 5.3082  Acc: 0.1177
+  Time: 0m 33s
+
+Epoch 8/10
+  Train Loss: 4.3110  Acc: 0.2147
+  Val   Loss: 5.0226  Acc: 0.1363
+  Time: 0m 33s
+
+Epoch 9/10
+  Train Loss: 4.1793  Acc: 0.2330
+  Val   Loss: 5.0220  Acc: 0.1365
+  Time: 0m 33s
+
+Epoch 10/10
+  Train Loss: 4.1704  Acc: 0.2288
+  Val   Loss: 4.9948  Acc: 0.1363
+  Time: 0m 33s
+Best Validation Acc: 0.1365
+Saved best model to ./checkpoint/ImageNet-subset-v2-edge-sobel-original-full-pretrained-sobel-naive-0.1-full-finetuning.pth
+===== Training Start =====
+Device: cuda
+Batch Size: 64, LR: 0.001, Epochs: 10
+Input: ./dataset/imagenet-1k-subset-v2-edge/sobel
+
+Epoch 1/10
+  Train Loss: 7.6244  Acc: 0.0008
+  Val   Loss: 7.2570  Acc: 0.0022
+  Time: 0m 21s
+
+Epoch 2/10
+  Train Loss: 7.3345  Acc: 0.0017
+  Val   Loss: 7.2379  Acc: 0.0025
+  Time: 0m 20s
+
+Epoch 3/10
+  Train Loss: 7.2995  Acc: 0.0018
+  Val   Loss: 7.1794  Acc: 0.0018
+  Time: 0m 20s
+
+Epoch 4/10
+  Train Loss: 7.2786  Acc: 0.0013
+  Val   Loss: 7.1997  Acc: 0.0025
+  Time: 0m 20s
+
+Epoch 5/10
+  Train Loss: 7.2596  Acc: 0.0020
+  Val   Loss: 7.1796  Acc: 0.0022
+  Time: 0m 20s
+
+Epoch 6/10
+  Train Loss: 7.2512  Acc: 0.0017
+  Val   Loss: 7.2021  Acc: 0.0025
+  Time: 0m 20s
+
+Epoch 7/10
+  Train Loss: 7.2410  Acc: 0.0014
+  Val   Loss: 7.1983  Acc: 0.0027
+  Time: 0m 20s
+
+Epoch 8/10
+  Train Loss: 6.8792  Acc: 0.0034
+  Val   Loss: 6.7515  Acc: 0.0045
+  Time: 0m 20s
+
+Epoch 9/10
+  Train Loss: 6.7561  Acc: 0.0040
+  Val   Loss: 6.7372  Acc: 0.0027
+  Time: 0m 19s
+
+Epoch 10/10
+  Train Loss: 6.7493  Acc: 0.0033
+  Val   Loss: 6.7398  Acc: 0.0057
+  Time: 0m 20s
+Best Validation Acc: 0.0057
+Saved best model to ./checkpoint/ImageNet-subset-v2-edge-sobel-original-full-finetuned.pth
+===== Training Start =====
+Device: cuda
+Batch Size: 64, LR: 0.001, Epochs: 10
+Input: ./dataset/Dark-ImageNet-subset-v2/naive-0.1
+
+Epoch 1/10
+  Train Loss: 7.5996  Acc: 0.0011
+  Val   Loss: 7.3467  Acc: 0.0015
+  Time: 0m 17s
+
+Epoch 2/10
+  Train Loss: 7.3857  Acc: 0.0008
+  Val   Loss: 7.3594  Acc: 0.0008
+  Time: 0m 16s
+
+Epoch 3/10
+  Train Loss: 7.3615  Acc: 0.0008
+  Val   Loss: 7.2901  Acc: 0.0008
+  Time: 0m 16s
+
+Epoch 4/10
+  Train Loss: 7.3269  Acc: 0.0021
+  Val   Loss: 7.3159  Acc: 0.0018
+  Time: 0m 16s
+
+Epoch 5/10
+  Train Loss: 7.3015  Acc: 0.0012
+  Val   Loss: 7.2765  Acc: 0.0018
+  Time: 0m 16s
+
+Epoch 6/10
+  Train Loss: 7.2819  Acc: 0.0019
+  Val   Loss: 7.3121  Acc: 0.0020
+  Time: 0m 16s
+
+Epoch 7/10
+  Train Loss: 7.2797  Acc: 0.0018
+  Val   Loss: 7.2452  Acc: 0.0025
+  Time: 0m 16s
+
+Epoch 8/10
+  Train Loss: 6.9019  Acc: 0.0053
+  Val   Loss: 6.8040  Acc: 0.0032
+  Time: 0m 16s
+
+Epoch 9/10
+  Train Loss: 6.7773  Acc: 0.0062
+  Val   Loss: 6.7932  Acc: 0.0075
+  Time: 0m 16s
+
+Epoch 10/10
+  Train Loss: 6.7741  Acc: 0.0062
+  Val   Loss: 6.7915  Acc: 0.0060
+  Time: 0m 16s
+Best Validation Acc: 0.0075
+Saved best model to ./checkpoint/ImageNet-subset-v2-edge-sobel-original-full-finetuned-original-fc-finetuning.pth
+===== Training Start =====
+Device: cuda
+Batch Size: 64, LR: 0.001, Epochs: 10
+Input: ./dataset/Dark-ImageNet-subset-v2-edge/sobel/naive-0.1
+
+Epoch 1/10
+  Train Loss: 7.5065  Acc: 0.0014
+  Val   Loss: 7.3053  Acc: 0.0025
+  Time: 0m 17s
+
+Epoch 2/10
+  Train Loss: 7.2701  Acc: 0.0019
+  Val   Loss: 7.2607  Acc: 0.0018
+  Time: 0m 17s
+
+Epoch 3/10
+===== Training Start =====
+Device: cuda
+Batch Size: 64, LR: 0.001, Epochs: 10
+Input: ./dataset/imagenet-1k-subset-v2-edge/sobel
+
+Epoch 1/10
+  Train Loss: 7.4718  Acc: 0.0009
+  Val   Loss: 7.1464  Acc: 0.0013
+  Time: 0m 20s
+
+Epoch 2/10
+  Train Loss: 7.2117  Acc: 0.0013
+  Val   Loss: 7.0880  Acc: 0.0022
+  Time: 0m 20s
+
+Epoch 3/10
+  Train Loss: 7.1627  Acc: 0.0016
+  Val   Loss: 7.0691  Acc: 0.0020
+  Time: 0m 20s
+
+Epoch 4/10
+  Train Loss: 7.1356  Acc: 0.0018
+  Val   Loss: 7.0749  Acc: 0.0030
+  Time: 0m 19s
+
+Epoch 5/10
+  Train Loss: 7.1204  Acc: 0.0027
+  Val   Loss: 7.0492  Acc: 0.0022
+  Time: 0m 20s
+
+Epoch 6/10
+  Train Loss: 7.0986  Acc: 0.0018
+  Val   Loss: 7.0489  Acc: 0.0037
+  Time: 0m 20s
+
+Epoch 7/10
+  Train Loss: 7.0776  Acc: 0.0026
+  Val   Loss: 7.0161  Acc: 0.0030
+  Time: 0m 19s
+
+Epoch 8/10
+  Train Loss: 6.7780  Acc: 0.0053
+  Val   Loss: 6.7025  Acc: 0.0063
+  Time: 0m 20s
+
+Epoch 9/10

@@ -1,0 +1,6 @@
+**/__pycache__
+checkpoint/
+dataset/Dark*/
+dataset/imagenet*/
+edge_detection/hed/*
+edge_detection/rcf/weights/*
