@@ -39,8 +39,8 @@
 ## 환경 설정
 
 ```
-git clone edge-based-classification
-cd edge-based-classification
+git clone THIS_REPO
+cd aiku-25-1-project-edge-based-classification
 
 conda create -n edge-based-classification python=3.8.18
 conda activate edge-based-classification
