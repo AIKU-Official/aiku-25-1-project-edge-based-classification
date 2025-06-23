@@ -39,11 +39,11 @@
 ## 환경 설정
 
 ```
-git clone mamama
-cd mamama
+git clone edge-based-classification
+cd edge-based-classification
 
-conda create -n mamama python=3.8.18
-conda activate mamama
+conda create -n edge-based-classification python=3.8.18
+conda activate edge-based-classification
 
 pip install -r requirements.txt
 ```
