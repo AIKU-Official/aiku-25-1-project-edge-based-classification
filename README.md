@@ -22,10 +22,19 @@
 
 ## 방법론
 
-- Baseline: 기존 분류 모델을 어두운 이미지로 finetuning합니다.
-- Edge: 어두운 이미지로부터 edge detection을 수행하여 edge 정보를 추출합니다.
-- Silhouette: 어두운 이미지에 segmentation을 수행하여 object mask를 추출합니다.
+- Baseline: 기존 분류 모델을 어두운 이미지로 finetuning
+- Edge: 어두운 이미지로부터 edge detection을 수행하여 edge 정보를 추출
+- Silhouette: 어두운 이미지에 segmentation을 수행하여 object mask를 추출
 - 목표: Edge와 silhouette 정보를 잘 활용하여, baseline보다 좋은 성능으로 어두운 이미지 classfication을 해보자!
+
+### Silouette-Based
+- 이미지에서 추출한 object mask를 기반으로 분류를 진행
+
+### Edge-Based
+- 이미지에서 추출한 edge를 기반으로 분류를 진행
+
+### Dual Channel
+- 어두운 이미지 + 이미지에서 추출한 edge를 모두 활용하여 분류를 진행
 
 ## 환경 설정
 
@@ -41,7 +50,7 @@ pip install -r requirements.txt
 
 ## 사용 방법
 
-### 기존 이미지(IamgeNet)를 darkenize하여 어두운 이미지 데이터셋 생성
+### 기존 이미지(IamgeNet)를 변형하여 어두운 이미지 데이터셋 생성
 ```
 cd dataset
 sh darkenize-v2.sh
@@ -91,6 +100,10 @@ dual_eval.sh
 | Edge-Based | 30.07 |
 | Dual Channel | **57.48** |
 | Dual Channel + Edge from original image | **67.85** |
+
+- 어두운 이미지에서의 edge 추출 성능은 일반 이미지에서 추출할 때보다 저하되는 결과
+- 더 나은 edge detection을 수행할 수 있는 상황을 가정하여, 일반 이미지 또는 덜 어둡게 변형한 이미지로부터 edge를 추출하여 실험을 진행
+- 일반 이미지에서 추출한 edge를 활용할 경우, baseline보다 높은 분류 성능 -> edge detection이 성능 bottleneck이라고 볼 수 있음
 
 ## 팀원
 
